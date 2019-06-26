@@ -36,7 +36,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
-  gem 'sqlite3', '1.3.13'
+  gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
@@ -50,10 +50,12 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+=begin COME BACK AND FIX
 group :production do
   # Use the PostgreSQL gem for Heroku production servers
   gem 'pg'
 end
+=end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
