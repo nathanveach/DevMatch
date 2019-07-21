@@ -4,7 +4,7 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
   
-  belongs_to :plan, optional: true
+  belongs_to :plan
   
   attr_accessor :stripe_card_token
   # If Pro user passes validations (email, password, etc.)
