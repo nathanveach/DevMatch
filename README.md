@@ -1,24 +1,11 @@
-# README
+https://rails-dev-match.herokuapp.com/
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Full Stack Rails App integrated with eCommerce, Authentication, and more.
 
-Things you may want to cover:
+Twitter Bootstrap Library used along with custom CSS.
 
-* Ruby version
+Stripe Subscriptions used for handling monthly payments.
 
-* System dependencies
+Devise used for User/Admin Authentication.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Mailgun used for Contact requests.
